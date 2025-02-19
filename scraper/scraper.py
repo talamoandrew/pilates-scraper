@@ -65,7 +65,8 @@ def check_class_openings():
 
     driver = webdriver.Chrome(options=chrome_options)
 
-    driver.get("https://www.clubpilates.com/location/gardencity")
+    # Replace location with desired Club Pilates location
+    driver.get("https://www.clubpilates.com/location/<location>")
 
     # Wait for page to load and cookie popup to appear
     time.sleep(3)
